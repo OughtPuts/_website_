@@ -4,7 +4,17 @@
 
   <div class="footer__options">
     <ul>
-      {% for item in site.data.footer.items %}
+      {% for item in site.data.footer.items.admin %}
+        <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+      {% endfor %}
+    </ul>
+    <ul>
+      {% for item in site.data.footer.items.tabs %}
+        <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+      {% endfor %}
+    </ul>
+     <ul>
+      {% for item in site.data.footer.items.misc %}
         <li><a href="{{ item.url }}">{{ item.title }}</a></li>
       {% endfor %}
     </ul>

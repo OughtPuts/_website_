@@ -1,15 +1,57 @@
 items:
-  - title: Conduct
-    url: /conduct
+  admin:
+    - title: Conduct
+      url: /conduct
 
-  - title: Maintenance
-    url: /maintenance
+    - title: Maintenance
+      url: /maintenance
 
-  - title: Security
-    url: /security
+    - title: Security
+      url: /security
 
-  - title: Trademarks
-    url: /trademarks
+    - title: Trademarks
+      url: /trademarks
 
-  - title: License
-    url: https://opensource.org/licenses/MIT
+    - title: License
+      url: https://opensource.org/licenses/MIT
+
+  tabs:
+    - title: Docs
+    - url: /docs
+
+    - title: Community
+    - url: /community
+
+    - title: Blog
+    - url: /blog
+
+    - title: Events
+    - url: /world
+
+    - title: Foundation
+    - url: /foundation
+
+    - title: The Rails Doctrine
+    - url: /doctrine
+
+  misc:
+    - title: Source
+    - url: https://github.com/rails/rails
+
+    - title: Jobs
+    - url: https://jobs.rubyonrails.org/
+
+    - title: Forum
+    - url: https://discuss.rubyonrails.org/
+
+    - title: Guides
+    - url: https://guides.rubyonrails.org/
+
+    - title: Merch
+    - url: https://merch.rubyonrails.org/
+
+    - title: API
+    - url: https://api.rubyonrails.org/
+
+    - title: Edge API
+    - url: https://edgeapi.rubyonrails.org/
