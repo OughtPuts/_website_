@@ -8,6 +8,12 @@
     } // h1
   } // &.heading
 
+  &.cards {
+    .container {
+      text-align: center;
+    }
+  }
+
   &.casestudy.heading {
     padding-bottom: 60px;
   }
@@ -47,7 +53,7 @@
     font-variation-settings: var(--font-weight-200);
     line-height: 1.4em;
     display: block;
-    margin: 1em auto 0.5em;
+    margin: 1em auto 0;
     text-align: center;
   } // h2
 

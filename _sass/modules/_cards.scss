@@ -30,7 +30,7 @@
 
       &:hover {
 
-        .card__label h6 {
+        .card__label h4, h6 {
           background: $color-red;
         }
 
@@ -51,7 +51,7 @@
       width: 100%;
       z-index: 1;
 
-      h6 {
+      h4, h6 {
 
         background: $color-red;
         border-radius: 3px;
